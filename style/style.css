@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+
+.menu a{
+    padding: 10px;
+}
+
+header{
+    margin: 10px;
+}
+
+.menu{
+   
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    align-items:flex-start;
+
+}
+
+
+.logo{
+    height: 300px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+   
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.carre{
+
+    width: 20px;
+    height: 20px;
+}
+
+.chevron{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.searchbar{
+    height:40px;
+    border:none;
+    width:500px;
+    font: size 16px;
+    outline:none;
+}
+
+.chevron {
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+
+.barre .loupe{
+    height: 20px;
+    position:relative;
+    top:10px;
+    left:5px;
+    float:left;
+}
+
+.barre .micro{
+    height:20px;
+    position:relative;
+    top:10px;
+    float:right;
+    right:50px;
+    
+}
+
+.barre .photo{
+    height:20px;
+    position:relative;
+    top:10px;
+    float:right;
+    
+}
+
+.bouton{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.recherche, .chance{
+   
+    border: none;
+   
+    font-size :15px;
+    margin : 20px;
+}
